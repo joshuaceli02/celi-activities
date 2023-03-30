@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Programming</title>
+    <style>
+        body{
+            width: 100%;
+            height: 100vh;
+            background: #222;
+            color: #fff;
+            font-family: arial;
+            overflow: hidden;
+        }
+        .main{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            padding: 0 50px;
+        }
+        .image img{
+            width: 100%;
+            max-width: 150px;
+            border-radius: 50%;
+            margin-top: 30%;
+        }
+        .content{
+            text-align: center;
+        }
+        .content .text1{
+            font-weight: bold;
+            font-size: 40px;
+            color: #18cf5e;
+        }
+        .content .text2{
+            color: #18cf5e;
+            font-size: 35px;
+
+        }
+        .activities{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        .activities a{
+            margin: 10px 0 0 20px;
+            text-decoration: none;
+            color: #25c280;
+            font-weight: bold;
+            padding: 4px;
+            transition: 0.5s;
+        }
+        .activities a:hover{
+            background: cyan;
+            color: #222;
+            border-radius: 5px;
+        }
+        .line{
+            width: 100%;
+            height: 2px;
+            margin-top: 30px;
+            background: #fff;
+        }
+        small{
+            margin-top: 5px;
+            font-family:monospace;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="image">
+            <img src="./myimage.jpg" alt="">
+        </div>
+        <div class="content">
+            <div class="text1">Marc Joshua Celi</div>
+            <div class="text2">Web Programming</div>
+            <div class="activities">
+                <a href="./activities/Celi, Marc Joshua G. BSCS III-A.html">Activity 1</a>
+                <a href="./activities/Celi Marc Joshua G. BSCS III-A ACTIVITY 2.html">Activity 2</a>
+                <a href="./activities/Celi, Marc Joshua G. BSCS III-A ACTIVITY 3.html">Activity 3</a>
+                <a href="./activities/Celi Marc Joshua G. BSCS III-A ACTIVITY 4.html">Activity 4</a>
+                <a href="./activities/Celi, Marc Joshua G. BSCS III-A FB LOGIN.html">Activity 5</a>
+                <a href="./activities/Celi Marc Joshua G. BSCS III-A CCS.html">Activity 6</a>
+            </div>
+        </div>
+        <div class="line"></div>
+        <small>Created by: Celi The Great</small>
+    </div>
+</body>
+</html>
